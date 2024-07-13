@@ -1,0 +1,19 @@
+{
+  "name": "@gecs/plugin-data",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "homepage": "https://github.com/noahlange/gecs-game#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev:types": "tsc",
+    "dev:pretty": "prettier --write 'src/**/*.ts'",
+    "dev:lint": "eslint --fix 'src/**/*.{js,ts,jsx,tsx}'"
+  },
+  "dependencies": {
+    "@gecs/lib": "*",
+    "@gecs/types": "*"
+  }
+}

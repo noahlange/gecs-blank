@@ -1,0 +1,28 @@
+{
+  "name": "@gecs/plugin-ui",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "homepage": "https://github.com/noahlange/gecs-game#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev:types": "tsc",
+    "dev:pretty": "prettier --write 'src/**/*.ts'",
+    "dev:lint": "eslint --fix 'src/**/*.{js,ts,jsx,tsx}'"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "dependencies": {
+    "@gecs/lib": "*",
+    "@gecs/plugin-events": "*",
+    "@gecs/plugin-state": "*",
+    "@gecs/types": "*",
+    "preact": "^10.13.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@gecs/tool-content",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/koa": "^2.15.0",
+    "@types/koa__cors": "^5.0.0",
+    "@types/koa-router": "^7.4.8"
+  },
+  "dependencies": {
+    "@gecs/utils": "*",
+    "@koa/cors": "^5.0.0",
+    "better-sqlite3": "^11.1.1",
+    "deepmerge": "^4.3.1",
+    "globby": "^11.1.0",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1"
+  },
+  "scripts": {
+    "dev:content": "tsx ./src/generate.ts ../../static",
+    "serve:content": "tsx ./src/server.ts"
+  }
+}

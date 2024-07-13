@@ -1,0 +1,29 @@
+{
+  "name": "@gecs/types",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev:types": "tsc",
+    "dev:pretty": "prettier --write 'src/**/*.ts'",
+    "dev:lint": "eslint --fix 'src/**/*.{js,ts,jsx,tsx}'"
+  },
+  "dependencies": {
+    "@types/json-schema": "^7.0.11",
+    "ajv": "^8.12.0",
+    "json-schema": "^0.4.0",
+    "malwoden": "^0.5.0",
+    "typescript": "^5.0.4"
+  },
+  "description": "> TODO: description",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "homepage": "https://github.com/noahlange/gecs-game#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahlange/gecs-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noahlange/gecs-game/issues"
+  }
+}

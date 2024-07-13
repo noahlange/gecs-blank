@@ -1,0 +1,15 @@
+node_modules
+.ignore
+.DS_Store
+.env
+packages/*/stats.html
+
+static/**/*.jsonz
+static/content.json
+
+packages/*/node_modules
+packages/*/dist
+packages/*/types
+packages/*/lib
+
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "name": "@gecs/plugin-render",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "homepage": "https://github.com/noahlange/gecs-game#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev:types": "tsc",
+    "dev:pretty": "prettier --write 'src/**/*.ts'",
+    "dev:lint": "eslint --fix 'src/**/*.{js,ts,jsx,tsx}'"
+  },
+  "dependencies": {
+    "@gecs/lib": "*",
+    "@gecs/plugin-data": "*",
+    "@gecs/plugin-events": "*",
+    "@gecs/plugin-state": "*",
+    "@gecs/types": "*",
+    "@gecs/utils": "*",
+    "@pixi-essentials/object-pool": "^1.0.1",
+    "@pixi/tilemap": "^4.0.0",
+    "@tweenjs/tween.js": "^20.0.3",
+    "malwoden": "^0.5.0",
+    "nanoid": "^5.0.7",
+    "pixi-viewport": "^5.0.1",
+    "pixi.js": "^7.2.4",
+    "tiledtils": "github:noahlange/tiledtils#master"
+  }
+}
